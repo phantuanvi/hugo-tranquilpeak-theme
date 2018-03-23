@@ -1,9 +1,14 @@
 {{ partial "head.html" . }}
 <main class="posts">
   <article class="post">
-    <h1>404 Not Found</h1>
-    <p>Sorry, but we couldn't find the page you're looking for.</p>
-    <p>Please head back <a href="/">home</a>.</p>
+    <!-- <p>Sorry, but we couldn't find the page you're looking for.</p> -->
+    <div style="margin-top:100px;text-align: center;">
+    	<h1 style="color:white">Error 404</h1>
+    	<img src="//res.cloudinary.com/vizillion/image/upload/v1500639949/messages_vi.svg"><br>
+    	<img src="//res.cloudinary.com/vizillion/image/upload/v1500635124/astronaut_vi.png">
+    	<br><br>
+    	<a style="color: black!important;" href="/" class="btn btn--default">Come back <i class="fa fa-home"></i></a>
+    </div>
   </article>
 </main>
 {{ partial "foot.html" . }}
